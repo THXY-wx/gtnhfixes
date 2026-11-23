@@ -1,0 +1,10 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "gtnh.skincompat.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "plugin": "gtnh.skincompat.mixin.SkinCompatMixinPlugin",
+  "client": [
+    "MixinClientEventHandler"
+  ]
+}

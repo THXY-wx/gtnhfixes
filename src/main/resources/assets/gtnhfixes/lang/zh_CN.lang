@@ -1,0 +1,10 @@
+gtnhfixes.config.useModdedTools=模组工具
+gtnhfixes.config.useModdedTools.tooltip=读取 Forge 的 Item.getToolClasses 与 getHarvestLevel（GregTech、Railcraft、BuildCraft 等）。
+gtnhfixes.config.useTinkersWeapons=匠魂武器
+gtnhfixes.config.useTinkersWeapons.tooltip=使用 tconstruct.library.tools.Weapon / HarvestTool / AOEHarvestTool 与 IWindup。
+gtnhfixes.config.useWailaHarvest=Waila 工具点
+gtnhfixes.config.useWailaHarvest.tooltip=调用 WailaHarvestability 的 ToolHelper.canToolHarvestBlock 画绿点/红点。
+gtnhfixes.config.fixItemSounds=An Extra Touch 音效
+gtnhfixes.config.fixItemSounds.tooltip=为匠魂武器和工具补充物品音效分类。
+gtnhfixes.config.fixSkinPortSsb=SkinPort 兼容修复
+gtnhfixes.config.fixSkinPortSsb.tooltip=阻止 SimpleSkinBackport 处理 SkinPort 的玩家模型，避免首次进世界时崩溃。

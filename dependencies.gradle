@@ -1,0 +1,9 @@
+/*
+ * GTNH Fixes: no hard compile dependency on the target mods. GTNHLib is required at runtime
+ * (config system); Mixin and SimpleSkinBackport are compileOnly for the skin coremod.
+ */
+dependencies {
+    compileOnly files("libs/gtnhlib-0.11.54.jar")
+    compileOnly files("libs/mixin-forge.jar")
+    compileOnly files("libs/simpleskinbackport-1.0.5-GTNH.jar")
+}

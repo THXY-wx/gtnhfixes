@@ -1,0 +1,10 @@
+gtnhfixes.config.useModdedTools=Modded tools
+gtnhfixes.config.useModdedTools.tooltip=Read Forge tool classes and harvest levels (GregTech, Railcraft, BuildCraft, ...).
+gtnhfixes.config.useTinkersWeapons=TiC weapons
+gtnhfixes.config.useTinkersWeapons.tooltip=Use tconstruct.library.tools.Weapon / HarvestTool / AOEHarvestTool and IWindup.
+gtnhfixes.config.useWailaHarvest=Waila tool dot
+gtnhfixes.config.useWailaHarvest.tooltip=Call WailaHarvestability ToolHelper.canToolHarvestBlock for the green/red dots.
+gtnhfixes.config.fixItemSounds=An Extra Touch sounds
+gtnhfixes.config.fixItemSounds.tooltip=Add item sound category overrides for Tinkers' weapons and tools.
+gtnhfixes.config.fixSkinPortSsb=SkinPort x SSB fix
+gtnhfixes.config.fixSkinPortSsb.tooltip=Stop SimpleSkinBackport from touching SkinPort's player model (prevents the first-join ArmPair NPE).
