@@ -84,3 +84,15 @@ compat {
 ```
 
 产物：`build/libs/GTNHFixes-1.7.10-2.0.0.jar`。
+
+## 发布
+
+推送与 `gradle.properties` 中 `modVersion` 一致的 tag 即可自动构建并发布：
+
+```sh
+git tag v2.0.0
+git push origin v2.0.0
+```
+
+`.github/workflows/release.yml` 会先校验 tag 与 `modVersion`、检查 `libs/` 下的 compileOnly jar，
+然后构建并把 `GTNHFixes-*.jar` 挂到 GitHub Release。注意 `libs/` 里的三个 jar 必须提交到仓库。
